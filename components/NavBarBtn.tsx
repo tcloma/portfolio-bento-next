@@ -1,8 +1,6 @@
 import React from 'react'
 
-type Props = {
-	name: string
-}
+type Props = { name: string }
 
 export default function NavBarBtn({ name }: Props) {
 	return (

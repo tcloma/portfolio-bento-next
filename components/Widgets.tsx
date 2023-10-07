@@ -1,15 +1,21 @@
 import React from 'react'
 
 export default function Widgets() {
-	// Section for Random Widgets
     // NYC Time
     // Bogo Sort
     // Dark Mode toggle
-    // Shuffle Widgets? Maybe widget taht moves around and avoids the mouse / press LMAO
+    // Widget that avoids the mouse
 
 	return (
-		<section>
-			<h1></h1>
+		<section className='grid col-span-4 grid-cols-4 gap-2'>
+			<div className='bento-square'>Widget</div>
+			<div className='bento-square'>Widget</div>
+			<div className='bento-square'>Widget</div>
+			<div className='bento-square'>Widget</div>
+			<div className='bento-square'>Widget</div>
+			<div className='bento-square'>Widget</div>
+			<div className='bento-square'>Widget</div>
+			<div className='bento-square'>Widget</div>
 		</section>
 	)
 }
